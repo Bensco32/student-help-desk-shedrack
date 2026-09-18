@@ -121,6 +121,7 @@ a { color: inherit; text-decoration: none; }
 .form-stack { display:grid; gap:15px; margin-top:26px; }
 .field { display:grid; gap:7px; }
 .field label { color:#526663; font-size:12px; font-weight:700; }
+.field-help { color:var(--muted); font-size:11px; line-height:1.45; }
 .field input, .field select, .field textarea, .search-input {
   width:100%; border:1px solid #d9d0c2; border-radius:11px; outline:0; padding:12px 13px;
   color:var(--ink); background:#fffdf8; font-size:14px;
@@ -130,7 +131,6 @@ a { color: inherit; text-decoration: none; }
 .form-card .btn-primary { width:100%; margin-top:2px; }
 .form-foot { margin-top:22px; padding-top:18px; border-top:1px solid var(--line-light); color:var(--muted); text-align:center; font-size:12px; }
 .form-foot a { color:#326a6c; font-weight:700; }
-.form-link-divider { color:var(--muted-2); margin:0 4px; }
 .notice { padding:11px 13px; border-radius:10px; color:var(--red); background:var(--red-wash); font-size:12px; line-height:1.5; }
 .hint { margin-top:15px; padding:11px 12px; border:1px solid #e2d4bb; border-radius:10px; color:#75664e; background:var(--gold-wash); font-size:11px; line-height:1.5; }
 
@@ -230,7 +230,6 @@ a { color: inherit; text-decoration: none; }
 .close-modal { width:32px; height:32px; border:0; border-radius:9px; color:var(--muted); background:transparent; font-size:20px; }
 .modal-form { display:grid; gap:15px; padding:22px; }
 .modal-form .form-actions { display:flex; justify-content:flex-end; gap:9px; padding-top:13px; border-top:1px solid var(--line-light); }
-.portal-card-secondary-link { display:block; margin-top:10px !important; color:#795c2a !important; }
 .toast { position:fixed; right:22px; bottom:22px; z-index:40; max-width:320px; padding:13px 15px; border:1px solid #bcd7ce; border-radius:12px; color:#285c50; background:#e8f3ee; box-shadow:var(--shadow); font-size:12px; font-weight:700; }
 .hidden { display:none !important; }
 .animate { animation:rise .42s ease both; }
